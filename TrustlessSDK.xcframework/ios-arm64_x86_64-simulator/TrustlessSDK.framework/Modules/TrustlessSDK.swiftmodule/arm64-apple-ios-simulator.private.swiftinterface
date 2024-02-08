@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TrustlessSDK
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TrustlessSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import Foundation
@@ -458,31 +458,7 @@ public enum TrustlessError : Swift.Error {
   case decoding
   case unexpected
   case unexpectedServerResponse
-  case invalidUsageError(error: TrustlessSDK.TrustlessError.InvalidUsageError)
   case localAuthentication(description: Swift.String)
-  public enum InvalidUsageError : Swift.String, Swift.Error {
-    case invalidMonthFormat
-    case invalidYearFormat
-    case invalidNameFormat
-    case invalidPhoneNumberFormat
-    case invalidPasswordFormat
-    case invalidCodeFormat
-    case invalidEmailFormat
-    case invalidLimitFormat
-    case invalidAmountFormat
-    case invalidCardHolderNameFormat
-    case invalidMobileNumberFormat
-    case invalidCurrencyCodeFormat
-    case invalidAccountNameFormat
-    case invalidAccountNumberFormat
-    case invalidPageNumberFormat
-    case invalidPageSizeFormat
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
 }
 public enum KYCStepStructuredField {
   case object(any TrustlessSDK.KYCBaseFieldProtocol)
@@ -906,9 +882,6 @@ extension TrustlessSDK.CardStatus : Swift.Hashable {}
 extension TrustlessSDK.CardStatus : Swift.RawRepresentable {}
 extension TrustlessSDK.CreateInternalTransferParams : Swift.Encodable {}
 extension TrustlessSDK.CardManageFundsParams : Swift.Encodable {}
-extension TrustlessSDK.TrustlessError.InvalidUsageError : Swift.Equatable {}
-extension TrustlessSDK.TrustlessError.InvalidUsageError : Swift.Hashable {}
-extension TrustlessSDK.TrustlessError.InvalidUsageError : Swift.RawRepresentable {}
 extension TrustlessSDK.CliQAliasType : Swift.Equatable {}
 extension TrustlessSDK.CliQAliasType : Swift.Hashable {}
 extension TrustlessSDK.CliQAliasType : Swift.RawRepresentable {}

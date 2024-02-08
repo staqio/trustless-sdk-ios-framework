@@ -6272,16 +6272,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TrustlessSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "CreatedCliqAlias",
         "printedName": "CreatedCliqAlias",
@@ -17729,6 +17719,23 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "TrustlessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "TrustlessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "TrustlessSDK"
       },
       {
@@ -20810,66 +20817,6 @@
           },
           {
             "kind": "Var",
-            "name": "invalidUsageError",
-            "printedName": "invalidUsageError",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(TrustlessSDK.TrustlessError.Type) -> (TrustlessSDK.TrustlessError.InvalidUsageError) -> TrustlessSDK.TrustlessError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError) -> TrustlessSDK.TrustlessError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TrustlessError",
-                        "printedName": "TrustlessSDK.TrustlessError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(error: TrustlessSDK.TrustlessError.InvalidUsageError)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "TrustlessSDK.TrustlessError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TrustlessError",
-                        "printedName": "TrustlessSDK.TrustlessError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12TrustlessSDK0A5ErrorO012invalidUsageC0yA2C07InvalideC0O_tcACmF",
-            "mangledName": "$s12TrustlessSDK0A5ErrorO012invalidUsageC0yA2C07InvalideC0O_tcACmF",
-            "moduleName": "TrustlessSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "localAuthentication",
             "printedName": "localAuthentication",
             "children": [
@@ -20926,738 +20873,6 @@
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "RawDocComment"
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "InvalidUsageError",
-            "printedName": "InvalidUsageError",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "invalidMonthFormat",
-                "printedName": "invalidMonthFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O18invalidMonthFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O18invalidMonthFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidYearFormat",
-                "printedName": "invalidYearFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O17invalidYearFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O17invalidYearFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidNameFormat",
-                "printedName": "invalidNameFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O17invalidNameFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O17invalidNameFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidPhoneNumberFormat",
-                "printedName": "invalidPhoneNumberFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O24invalidPhoneNumberFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O24invalidPhoneNumberFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidPasswordFormat",
-                "printedName": "invalidPasswordFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O21invalidPasswordFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O21invalidPasswordFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidCodeFormat",
-                "printedName": "invalidCodeFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O17invalidCodeFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O17invalidCodeFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidEmailFormat",
-                "printedName": "invalidEmailFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O18invalidEmailFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O18invalidEmailFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidLimitFormat",
-                "printedName": "invalidLimitFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O18invalidLimitFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O18invalidLimitFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidAmountFormat",
-                "printedName": "invalidAmountFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O19invalidAmountFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O19invalidAmountFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidCardHolderNameFormat",
-                "printedName": "invalidCardHolderNameFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O27invalidCardHolderNameFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O27invalidCardHolderNameFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidMobileNumberFormat",
-                "printedName": "invalidMobileNumberFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O25invalidMobileNumberFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O25invalidMobileNumberFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidCurrencyCodeFormat",
-                "printedName": "invalidCurrencyCodeFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O25invalidCurrencyCodeFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O25invalidCurrencyCodeFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidAccountNameFormat",
-                "printedName": "invalidAccountNameFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O24invalidAccountNameFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O24invalidAccountNameFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidAccountNumberFormat",
-                "printedName": "invalidAccountNumberFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O26invalidAccountNumberFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O26invalidAccountNumberFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidPageNumberFormat",
-                "printedName": "invalidPageNumberFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O23invalidPageNumberFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O23invalidPageNumberFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "invalidPageSizeFormat",
-                "printedName": "invalidPageSizeFormat",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(TrustlessSDK.TrustlessError.InvalidUsageError.Type) -> TrustlessSDK.TrustlessError.InvalidUsageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "InvalidUsageError",
-                            "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O21invalidPageSizeFormatyA2EmF",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O21invalidPageSizeFormatyA2EmF",
-                "moduleName": "TrustlessSDK"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InvalidUsageError",
-                        "printedName": "TrustlessSDK.TrustlessError.InvalidUsageError",
-                        "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O8rawValueAESgSS_tcfc",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O8rawValueAESgSS_tcfc",
-                "moduleName": "TrustlessSDK",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O8rawValueSSvp",
-                "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O8rawValueSSvp",
-                "moduleName": "TrustlessSDK",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O8rawValueSSvg",
-                    "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O8rawValueSSvg",
-                    "moduleName": "TrustlessSDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:12TrustlessSDK0A5ErrorO012InvalidUsageC0O",
-            "mangledName": "$s12TrustlessSDK0A5ErrorO012InvalidUsageC0O",
-            "moduleName": "TrustlessSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "enumRawTypeName": "String",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Error",
-                "printedName": "Error",
-                "usr": "s:s5ErrorP",
-                "mangledName": "$ss5ErrorP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              }
             ]
           }
         ],
@@ -35083,6 +34298,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustlessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "GetCardTransactionsParams",
         "printedName": "GetCardTransactionsParams",
@@ -37613,23 +36838,6 @@
           "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TrustlessSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "LocalAuthentication",
-        "printedName": "LocalAuthentication",
-        "declKind": "Import",
-        "moduleName": "TrustlessSDK"
       },
       {
         "kind": "Import",
@@ -42019,98 +41227,70 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 1766,
+      "offset": 1805,
       "length": 24,
       "value": "\"partner\/kyc\/meta\/steps\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2526,
+      "offset": 2741,
       "length": 29,
       "value": "\"partner\/kyc\/meta\/lists\/city\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2585,
+      "offset": 2800,
       "length": 13,
       "value": "\"filterValue\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "Dictionary",
-      "offset": 3555,
+      "offset": 3917,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3994,
+      "offset": 4373,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "BooleanLiteral",
-      "offset": 4119,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4590,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4715,
+      "offset": 4498,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "Dictionary",
-      "offset": 5703,
+      "offset": 5996,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "BooleanLiteral",
-      "offset": 6076,
+      "offset": 6385,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "BooleanLiteral",
-      "offset": 6201,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6591,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6716,
+      "offset": 6510,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/KYCProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 7735,
+      "offset": 7957,
       "length": 23,
       "value": "\"partner\/kyc\/customers\""
     },
@@ -42383,695 +41563,268 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 1382,
+      "offset": 922,
       "length": 53,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 1428,
+      "offset": 968,
       "length": 1,
       "value": "\"\/cards\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "BooleanLiteral",
-      "offset": 1790,
+      "offset": 1330,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "IntegerLiteral",
-      "offset": 1992,
+      "offset": 1558,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2346,
+      "offset": 1912,
       "length": 53,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2392,
+      "offset": 1958,
       "length": 1,
       "value": "\"\/cards\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "IntegerLiteral",
-      "offset": 2947,
+      "offset": 2399,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 3301,
+      "offset": 2753,
       "length": 79,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 3347,
+      "offset": 2799,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 3366,
+      "offset": 2818,
       "length": 1,
       "value": "\"\/transactions\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4141,
+      "offset": 3453,
       "length": 66,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4187,
+      "offset": 3499,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4206,
+      "offset": 3518,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "BooleanLiteral",
-      "offset": 4463,
+      "offset": 3775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4905,
+      "offset": 4217,
       "length": 70,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4951,
+      "offset": 4263,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4970,
+      "offset": 4282,
       "length": 1,
       "value": "\"\/pan\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5723,
+      "offset": 5035,
       "length": 73,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5769,
+      "offset": 5081,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5788,
+      "offset": 5100,
       "length": 1,
       "value": "\"\/status\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 6629,
+      "offset": 5840,
       "length": 66,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 6675,
+      "offset": 5886,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 6694,
+      "offset": 5905,
       "length": 61,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 7423,
+      "offset": 6634,
       "length": 74,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 7469,
+      "offset": 6680,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 7488,
+      "offset": 6699,
       "length": 1,
       "value": "\"\/balance\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 8384,
+      "offset": 7408,
       "length": 74,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 8430,
+      "offset": 7454,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 8449,
+      "offset": 7473,
       "length": 1,
       "value": "\"\/balance\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 9742,
+      "offset": 8282,
       "length": 74,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 9788,
+      "offset": 8328,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 9807,
+      "offset": 8347,
       "length": 1,
       "value": "\"\/balance\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 10457,
+      "offset": 9133,
       "length": 73,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 10503,
+      "offset": 9179,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 10522,
+      "offset": 9198,
       "length": 1,
       "value": "\"\/limits\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 11636,
+      "offset": 9941,
       "length": 73,
       "value": "\"partner\/prepaid-cards\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 11682,
+      "offset": 9987,
       "length": 1,
       "value": "\"\/cards\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/CardsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 11701,
+      "offset": 10006,
       "length": 1,
       "value": "\"\/limits\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 333,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 356,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 578,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 601,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 825,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 848,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1097,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1120,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1364,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1387,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1611,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1634,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1863,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1886,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2140,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2163,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2397,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2420,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2653,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2676,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2928,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2951,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3199,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3222,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4063,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4086,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4327,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4350,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4426,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4431,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4528,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4532,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4658,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "StringLiteral",
-      "offset": 4700,
-      "length": 12,
-      "value": "\"^[0-9]{16}\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4753,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "StringLiteral",
-      "offset": 4854,
-      "length": 10,
-      "value": "\"[A-Z]{3}\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4951,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4955,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "StringLiteral",
-      "offset": 5021,
-      "length": 18,
-      "value": "\"^0?[1-9]+[0-9]*$\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5073,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5153,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5191,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5209,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5213,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5234,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5257,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5436,
-      "length": 13,
-      "value": "1000000000000"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5518,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5522,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5628,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5705,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5709,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5810,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5814,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "StringLiteral",
-      "offset": 5880,
-      "length": 18,
-      "value": "\"^\\+[1-9][0-9]*$\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5932,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6004,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6008,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6099,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6103,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Validators.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6268,
-      "length": 3,
-      "value": "100"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CliQProvider\/Responses\/CreatedCliqAlias.swift",
@@ -43867,84 +42620,70 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "Dictionary",
-      "offset": 1035,
+      "offset": 1036,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "Dictionary",
-      "offset": 1211,
+      "offset": 1213,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1274,
       "length": 29,
       "value": "\"com.taskmanager.stateAccess\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2785,
+      "offset": 2767,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2983,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3117,
+      "offset": 3169,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3569,
+      "offset": 3622,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4951,
+      "offset": 4812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5132,
+      "offset": 5409,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5549,
+      "offset": 8857,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9086,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Helpers\/TaskManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9685,
+      "offset": 9456,
       "length": 4,
       "value": "true"
     },
@@ -44889,147 +43628,147 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "Array",
-      "offset": 703,
+      "offset": 713,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "Array",
-      "offset": 985,
+      "offset": 995,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 1254,
+      "offset": 1264,
       "length": 77,
       "value": "\"Keychain access controll error error: \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 1330,
+      "offset": 1340,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 1352,
+      "offset": 1362,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 1504,
+      "offset": 1514,
       "length": 12,
       "value": "\"user_token\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 2528,
+      "offset": 2449,
       "length": 12,
       "value": "\"user_token\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 3093,
+      "offset": 3014,
       "length": 35,
       "value": "\"Keychain retrieve error: \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 3127,
+      "offset": 3048,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 3173,
+      "offset": 3094,
       "length": 62,
       "value": "\"Keychain retrieve error: Unknown error with status \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 3234,
+      "offset": 3155,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 3510,
+      "offset": 3423,
       "length": 12,
       "value": "\"user_token\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 3830,
+      "offset": 3743,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 4022,
+      "offset": 3935,
       "length": 38,
       "value": "\"gcd: Keychain delete error: \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 4059,
+      "offset": 3972,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 4121,
+      "offset": 4034,
       "length": 65,
       "value": "\"gcd: Keychain delete error: Unknown error with status \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 4185,
+      "offset": 4098,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 4249,
+      "offset": 4162,
       "length": 65,
       "value": "\"gcd: Keychain delete error: Unknown error with status \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "StringLiteral",
-      "offset": 4313,
+      "offset": 4226,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 4349,
+      "offset": 4262,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/KeychainModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 4381,
+      "offset": 4294,
       "length": 4,
       "value": "true"
     },
@@ -45361,6 +44100,181 @@
       "offset": 204,
       "length": 9,
       "value": "\"Balance\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 201,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 254,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 307,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "IntegerLiteral",
+      "offset": 381,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1051,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1156,
+      "length": 28,
+      "value": "\"Biometry is not available.\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1207,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1238,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1313,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1499,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1575,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1722,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1804,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "StringLiteral",
+      "offset": 2065,
+      "length": 14,
+      "value": "\"lastAuthTime\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2121,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2160,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2243,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2283,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "StringLiteral",
+      "offset": 2677,
+      "length": 46,
+      "value": "\"Please authenticate to access sensitive data\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2845,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2956,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "StringLiteral",
+      "offset": 3028,
+      "length": 14,
+      "value": "\"lastAuthTime\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3152,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthenticationModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3497,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/Responses\/RegisteredUser.swift",
@@ -45776,230 +44690,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2509,
-      "length": 22,
-      "value": "\"Invalid Month Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2565,
-      "length": 21,
-      "value": "\"Invalid Year Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2620,
-      "length": 21,
-      "value": "\"Invalid Name Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2682,
-      "length": 29,
-      "value": "\"Invalid Phone Number Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2749,
-      "length": 25,
-      "value": "\"Invalid Password Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2808,
-      "length": 21,
-      "value": "\"Invalid Code Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2864,
-      "length": 22,
-      "value": "\"Invalid Email Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2921,
-      "length": 22,
-      "value": "\"Invalid Limit Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2979,
-      "length": 23,
-      "value": "\"Invalid Amount Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3046,
-      "length": 33,
-      "value": "\"Invalid Card Holder Name Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3121,
-      "length": 30,
-      "value": "\"Invalid Mobile Number Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3193,
-      "length": 30,
-      "value": "\"Invalid Currency Code Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3264,
-      "length": 29,
-      "value": "\"Invalid Account Name Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3336,
-      "length": 31,
-      "value": "\"Invalid Account Number Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3407,
-      "length": 28,
-      "value": "\"Invalid Page Number Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3473,
-      "length": 26,
-      "value": "\"Invalid Page Size Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2509,
-      "length": 22,
-      "value": "\"Invalid Month Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2565,
-      "length": 21,
-      "value": "\"Invalid Year Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2620,
-      "length": 21,
-      "value": "\"Invalid Name Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2682,
-      "length": 29,
-      "value": "\"Invalid Phone Number Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2749,
-      "length": 25,
-      "value": "\"Invalid Password Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2808,
-      "length": 21,
-      "value": "\"Invalid Code Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2864,
-      "length": 22,
-      "value": "\"Invalid Email Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2921,
-      "length": 22,
-      "value": "\"Invalid Limit Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 2979,
-      "length": 23,
-      "value": "\"Invalid Amount Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3046,
-      "length": 33,
-      "value": "\"Invalid Card Holder Name Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3121,
-      "length": 30,
-      "value": "\"Invalid Mobile Number Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3193,
-      "length": 30,
-      "value": "\"Invalid Currency Code Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3264,
-      "length": 29,
-      "value": "\"Invalid Account Name Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3336,
-      "length": 31,
-      "value": "\"Invalid Account Number Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3407,
-      "length": 28,
-      "value": "\"Invalid Page Number Format\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/TrustlessError.swift",
-      "kind": "StringLiteral",
-      "offset": 3473,
-      "length": 26,
-      "value": "\"Invalid Page Size Format\""
-    },
-    {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Models\/GetAppTokenBody.swift",
       "kind": "StringLiteral",
       "offset": 139,
@@ -46198,210 +44888,210 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
+      "offset": 1737,
       "length": 8,
       "value": "\"Branch\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1763,
+      "offset": 1768,
       "length": 8,
       "value": "\"Number\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 1797,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1824,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1850,
+      "offset": 1855,
       "length": 10,
       "value": "\"BankName\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1885,
+      "offset": 1890,
       "length": 10,
       "value": "\"Customer\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1924,
+      "offset": 1929,
       "length": 14,
       "value": "\"CurrencyCode\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 1967,
       "length": 9,
       "value": "\"NoDebit\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1996,
+      "offset": 2001,
       "length": 10,
       "value": "\"NoCredit\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2030,
+      "offset": 2035,
       "length": 9,
       "value": "\"Dormant\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2070,
+      "offset": 2075,
       "length": 16,
       "value": "\"CurrentBalance\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2130,
+      "offset": 2135,
       "length": 29,
       "value": "\"LocalCurrencyCurrentBalance\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2192,
+      "offset": 2197,
       "length": 18,
       "value": "\"AvailableBalance\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2231,
+      "offset": 2236,
       "length": 6,
       "value": "\"IBAN\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2259,
+      "offset": 2264,
       "length": 7,
       "value": "\"SWIFT\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
+      "offset": 1737,
       "length": 8,
       "value": "\"Branch\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1763,
+      "offset": 1768,
       "length": 8,
       "value": "\"Number\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 1797,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1824,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1850,
+      "offset": 1855,
       "length": 10,
       "value": "\"BankName\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1885,
+      "offset": 1890,
       "length": 10,
       "value": "\"Customer\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1924,
+      "offset": 1929,
       "length": 14,
       "value": "\"CurrencyCode\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 1967,
       "length": 9,
       "value": "\"NoDebit\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1996,
+      "offset": 2001,
       "length": 10,
       "value": "\"NoCredit\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2030,
+      "offset": 2035,
       "length": 9,
       "value": "\"Dormant\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2070,
+      "offset": 2075,
       "length": 16,
       "value": "\"CurrentBalance\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2130,
+      "offset": 2135,
       "length": 29,
       "value": "\"LocalCurrencyCurrentBalance\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2192,
+      "offset": 2197,
       "length": 18,
       "value": "\"AvailableBalance\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2231,
+      "offset": 2236,
       "length": 6,
       "value": "\"IBAN\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/Responses\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 2259,
+      "offset": 2264,
       "length": 7,
       "value": "\"SWIFT\""
     },
@@ -46422,14 +45112,14 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/UserProvider\/UserProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 1886,
+      "offset": 1471,
       "length": 20,
       "value": "\"tppa\/users\/profile\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/UserProvider\/UserProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2882,
+      "offset": 2278,
       "length": 21,
       "value": "\"tppa\/users\/password\""
     },
@@ -46800,112 +45490,112 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "IntegerLiteral",
-      "offset": 905,
+      "offset": 931,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
+      "offset": 1285,
       "length": 43,
       "value": "\"partner\/transfers\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
+      "offset": 1327,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1366,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2396,
+      "offset": 2021,
       "length": 57,
       "value": "\"partner\/transfers\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2438,
+      "offset": 2063,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2452,
+      "offset": 2077,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 3528,
+      "offset": 2774,
       "length": 52,
       "value": "\"partner\/transfers\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 3570,
+      "offset": 2816,
       "length": 1,
       "value": "\"\/internal\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4650,
+      "offset": 3604,
       "length": 48,
       "value": "\"partner\/transfers\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4692,
+      "offset": 3646,
       "length": 1,
       "value": "\"\/cliq\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5841,
+      "offset": 4795,
       "length": 47,
       "value": "\"partner\/cliq\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5878,
+      "offset": 4832,
       "length": 1,
       "value": "\"\/purposes\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 6686,
+      "offset": 5640,
       "length": 57,
       "value": "\"partner\/transfers\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 6728,
+      "offset": 5682,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/TransfersProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 6742,
+      "offset": 5696,
       "length": 14,
       "value": "\"\""
     },
@@ -47150,105 +45840,98 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1045,
       "length": 51,
       "value": "\"partner\/accounts\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 1254,
+      "offset": 1086,
       "length": 1,
       "value": "\"\/accounts\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1776,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2130,
+      "offset": 1922,
       "length": 51,
       "value": "\"partner\/accounts\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 2171,
+      "offset": 1963,
       "length": 1,
       "value": "\"\/accounts\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 3035,
+      "offset": 2687,
       "length": 68,
       "value": "\"partner\/accounts\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 3076,
+      "offset": 2728,
       "length": 1,
       "value": "\"\/accounts\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 3102,
+      "offset": 2754,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4174,
+      "offset": 3826,
       "length": 68,
       "value": "\"partner\/accounts\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4215,
+      "offset": 3867,
       "length": 1,
       "value": "\"\/accounts\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4241,
+      "offset": 3893,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "IntegerLiteral",
-      "offset": 4861,
+      "offset": 4539,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5215,
+      "offset": 4893,
       "length": 81,
       "value": "\"partner\/accounts\/customers\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5256,
+      "offset": 4934,
       "length": 1,
       "value": "\"\/accounts\/\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AccountsProvider\/AccountsProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5282,
+      "offset": 4960,
       "length": 1,
       "value": "\"\/transactions\""
     },
@@ -47540,6 +46223,20 @@
       "value": "\"decimal\""
     },
     {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/URLSessionTaskManager.swift",
+      "kind": "Dictionary",
+      "offset": 170,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/URLSessionTaskManager.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 33,
+      "value": "\"com.urlsessiontaskmanager.queue\""
+    },
+    {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/CardsProvider\/Params\/GetCardTransactionsParams.swift",
       "kind": "StringLiteral",
       "offset": 1070,
@@ -47724,490 +46421,462 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1655,
+      "offset": 1664,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1907,
+      "offset": 1916,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
-      "kind": "Dictionary",
-      "offset": 1981,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2028,
+      "offset": 2027,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3289,
+      "offset": 3288,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "Dictionary",
-      "offset": 3406,
+      "offset": 3405,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "Array",
-      "offset": 3482,
+      "offset": 3481,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "Dictionary",
-      "offset": 4285,
+      "offset": 4371,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 6477,
-      "length": 33,
-      "value": "\"!!! setting data task with id: \""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6534,
-      "length": 43,
-      "value": "\"!!! setting data task with data task id: \""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6836,
+      "offset": 6656,
       "length": 10,
       "value": "\"response\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 6893,
+      "offset": 6713,
       "length": 12,
       "value": "\"statusCode\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 7343,
+      "offset": 7163,
       "length": 17,
       "value": "\"decodedResponse\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 7524,
+      "offset": 7344,
       "length": 16,
       "value": "\"decoding error\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 7814,
+      "offset": 7634,
       "length": 12,
       "value": "\"statusCode\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "Dictionary",
-      "offset": 8064,
+      "offset": 7884,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 8316,
+      "offset": 8136,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 8328,
+      "offset": 8148,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 8493,
+      "offset": 8313,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 8505,
+      "offset": 8325,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 8871,
+      "offset": 8691,
       "length": 23,
       "value": "\"Internal Server Error\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 9318,
+      "offset": 9138,
       "length": 15,
       "value": "\"errorResponse\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 10486,
+      "offset": 10450,
       "length": 39,
       "value": "\"[SDK error] APIClient: dataTask error\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 10527,
+      "offset": 10491,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 10533,
+      "offset": 10497,
       "length": 10,
       "value": "\"Message:\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 10576,
+      "offset": 10540,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 12188,
+      "offset": 12152,
       "length": 27,
       "value": "\"gcd: JWT Token Auth Error\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 12264,
+      "offset": 12228,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 13427,
+      "offset": 13391,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 13547,
-      "length": 21,
-      "value": "\"call cancel request\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 13687,
+      "offset": 13630,
       "length": 35,
       "value": "\"!!! canceling data task with id: \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 13758,
+      "offset": 13701,
       "length": 45,
       "value": "\"!!! canceling data task with data task id: \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14001,
+      "offset": 13944,
       "length": 64,
       "value": "\"\n - - - - - - - - - - OUTGOING REQUEST - - - - - - - - - - \n\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14089,
+      "offset": 14032,
       "length": 60,
       "value": "\"\n - - - - - - - - - -  END REQUEST - - - - - - - - - - \n\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14210,
+      "offset": 14153,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14325,
+      "offset": 14268,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14350,
+      "offset": 14293,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14353,
+      "offset": 14296,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14357,
+      "offset": 14300,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14379,
+      "offset": 14322,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14405,
+      "offset": 14348,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14408,
+      "offset": 14351,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14430,
+      "offset": 14373,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14457,
+      "offset": 14400,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14460,
+      "offset": 14403,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14481,
+      "offset": 14424,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14507,
+      "offset": 14450,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14510,
+      "offset": 14453,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14533,
+      "offset": 14476,
       "length": 114,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14559,
+      "offset": 14502,
       "length": 1,
       "value": "\" \n\n\n\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14582,
+      "offset": 14525,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14590,
+      "offset": 14533,
       "length": 1,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14599,
+      "offset": 14542,
       "length": 4,
       "value": "\" HTTP\/1.1 \n\nHOST: \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14633,
+      "offset": 14576,
       "length": 1,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "Dictionary",
-      "offset": 14707,
+      "offset": 14650,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14735,
+      "offset": 14678,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14742,
+      "offset": 14685,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14752,
+      "offset": 14695,
       "length": 1,
       "value": "\" \n\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14830,
+      "offset": 14773,
       "length": 49,
       "value": "\"\n \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14875,
+      "offset": 14818,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 14878,
+      "offset": 14821,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 15000,
+      "offset": 14943,
       "length": 64,
       "value": "\"Response URL: \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 15049,
+      "offset": 14992,
       "length": 13,
       "value": "\"Unknown URL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 15063,
+      "offset": 15006,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 15080,
+      "offset": 15023,
       "length": 37,
       "value": "\"Status Code: \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 15116,
+      "offset": 15059,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 15134,
+      "offset": 15077,
       "length": 10,
       "value": "\"Headers:\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 15233,
+      "offset": 15176,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 15248,
+      "offset": 15191,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 15264,
+      "offset": 15207,
       "length": 2,
       "value": "\"\""
     },
@@ -48270,212 +46939,58 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/Paginator.swift",
       "kind": "BooleanLiteral",
-      "offset": 3163,
+      "offset": 3286,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/Paginator.swift",
       "kind": "IntegerLiteral",
-      "offset": 5110,
+      "offset": 5192,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/Paginator.swift",
       "kind": "BooleanLiteral",
-      "offset": 5171,
+      "offset": 5253,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/Paginator.swift",
       "kind": "IntegerLiteral",
-      "offset": 5264,
+      "offset": 5346,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/Paginator.swift",
       "kind": "IntegerLiteral",
-      "offset": 5948,
+      "offset": 6030,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/Paginator.swift",
       "kind": "BooleanLiteral",
-      "offset": 7014,
+      "offset": 7200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/Paginator.swift",
       "kind": "IntegerLiteral",
-      "offset": 7270,
+      "offset": 7417,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/API\/Paginator.swift",
       "kind": "IntegerLiteral",
-      "offset": 7840,
+      "offset": 8240,
       "length": 2,
       "value": "50"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "IntegerLiteral",
-      "offset": 208,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 259,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 312,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 369,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "StringLiteral",
-      "offset": 496,
-      "length": 46,
-      "value": "\"Please authenticate to access sensitive data\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1068,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "StringLiteral",
-      "offset": 1173,
-      "length": 28,
-      "value": "\"Biometry is not available.\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1224,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1255,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1333,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "StringLiteral",
-      "offset": 1499,
-      "length": 45,
-      "value": "\"info: authenticateIfNeeded isBiometryPassed\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "StringLiteral",
-      "offset": 1578,
-      "length": 52,
-      "value": "\"info: authenticateIfNeeded isAuthenticatedRecently\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1894,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "StringLiteral",
-      "offset": 2186,
-      "length": 14,
-      "value": "\"lastAuthTime\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2268,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2359,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2520,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "StringLiteral",
-      "offset": 2631,
-      "length": 46,
-      "value": "\"Please authenticate to access sensitive data\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2799,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2910,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "StringLiteral",
-      "offset": 2982,
-      "length": 14,
-      "value": "\"lastAuthTime\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/BiometricAuthModule.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3110,
-      "length": 2,
-      "value": "15"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/Params\/RequestPasswordResetBody.swift",
@@ -48494,35 +47009,35 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/TrustlessContext.swift",
       "kind": "StringLiteral",
-      "offset": 647,
+      "offset": 577,
       "length": 25,
       "value": "\"identity kyc simulation\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/TrustlessContext.swift",
       "kind": "StringLiteral",
-      "offset": 705,
+      "offset": 635,
       "length": 55,
       "value": "\"identity kyc accounts cards transfers cliq simulation\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/TrustlessContext.swift",
       "kind": "BooleanLiteral",
-      "offset": 4892,
+      "offset": 4764,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/TrustlessContext.swift",
       "kind": "BooleanLiteral",
-      "offset": 5113,
+      "offset": 4985,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/TrustlessContext.swift",
       "kind": "BooleanLiteral",
-      "offset": 5144,
+      "offset": 5016,
       "length": 4,
       "value": "true"
     },
@@ -48963,105 +47478,77 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "BooleanLiteral",
-      "offset": 1935,
+      "offset": 1804,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "BooleanLiteral",
-      "offset": 2053,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2458,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2576,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3011,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3129,
+      "offset": 1929,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 4056,
+      "offset": 4246,
       "length": 12,
       "value": "\"tppa\/token\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5386,
+      "offset": 4759,
       "length": 12,
       "value": "\"tppa\/users\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 5967,
+      "offset": 5431,
       "length": 35,
       "value": "\"tppa\/users\/password\/reset\/request\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 6915,
+      "offset": 6318,
       "length": 35,
       "value": "\"tppa\/users\/password\/reset\/confirm\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 7717,
+      "offset": 7171,
       "length": 12,
       "value": "\"tppa\/token\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 8469,
+      "offset": 7923,
       "length": 28,
       "value": "\"partner\/accounts\/customers\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "IntegerLiteral",
-      "offset": 8754,
+      "offset": 8208,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 9212,
+      "offset": 8675,
       "length": 13,
       "value": "\"partner\/kyc\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/AuthProvider\/AuthProviderImp.swift",
       "kind": "StringLiteral",
-      "offset": 9575,
+      "offset": 9038,
       "length": 8,
       "value": "\"404018\""
     },
@@ -49103,135 +47590,44 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
       "kind": "StringLiteral",
-      "offset": 1435,
-      "length": 37,
-      "value": "\"gcd: getAccessToken accessTokenData\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 1947,
+      "offset": 1873,
       "length": 20,
       "value": "\"refreshToken token\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
       "kind": "StringLiteral",
-      "offset": 2000,
+      "offset": 1926,
       "length": 21,
       "value": "\"refreshToken taskId\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
       "kind": "StringLiteral",
-      "offset": 2416,
+      "offset": 2342,
       "length": 13,
       "value": "\"accessToken\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
       "kind": "StringLiteral",
-      "offset": 2478,
+      "offset": 2404,
       "length": 14,
       "value": "\"refreshToken\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
       "kind": "StringLiteral",
-      "offset": 2758,
+      "offset": 2684,
       "length": 12,
       "value": "\"tppa\/token\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
       "kind": "StringLiteral",
-      "offset": 3797,
+      "offset": 3723,
       "length": 12,
       "value": "\"tppa\/token\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 5803,
-      "length": 25,
-      "value": "\"info: -----------------\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 5844,
-      "length": 26,
-      "value": "\"info: isBiometryEnabled:\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 5933,
-      "length": 28,
-      "value": "\"info: isLocalAuthActive 1:\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 6027,
-      "length": 18,
-      "value": "\"info: prevState:\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 6090,
-      "length": 12,
-      "value": "\"Background\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 6105,
-      "length": 8,
-      "value": "\"Active\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 6129,
-      "length": 21,
-      "value": "\"info: currentState:\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 6198,
-      "length": 12,
-      "value": "\"Background\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 6213,
-      "length": 8,
-      "value": "\"Active\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6426,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 6576,
-      "length": 37,
-      "value": "\"info: !!! reset biometricAuthModule\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Shared\/Modules\/UserTokenModule.swift",
-      "kind": "StringLiteral",
-      "offset": 6700,
-      "length": 26,
-      "value": "\"info: ------------------\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/SDK-PLUS\/ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Params\/GetCliQPurposeCodesParams.swift",
