@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TrustlessSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'SDK for building secure banking apps'
   s.description      = <<-DESC
                        Trustless SDK is designed for building secure banking apps, offering easy integration of key
