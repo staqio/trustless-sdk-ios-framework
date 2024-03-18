@@ -32,8 +32,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC10transferIdSivp",
-            "mangledName": "$s12TrustlessSDK8TransferC10transferIdSivp",
+            "usr": "s:12TrustlessSDK8TransferV10transferIdSivp",
+            "mangledName": "$s12TrustlessSDK8TransferV10transferIdSivp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -55,8 +55,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC10transferIdSivg",
-                "mangledName": "$s12TrustlessSDK8TransferC10transferIdSivg",
+                "usr": "s:12TrustlessSDK8TransferV10transferIdSivg",
+                "mangledName": "$s12TrustlessSDK8TransferV10transferIdSivg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -79,8 +79,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC10transferIdSivs",
-                "mangledName": "$s12TrustlessSDK8TransferC10transferIdSivs",
+                "usr": "s:12TrustlessSDK8TransferV10transferIdSivs",
+                "mangledName": "$s12TrustlessSDK8TransferV10transferIdSivs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -97,8 +97,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC10transferIdSivM",
-                "mangledName": "$s12TrustlessSDK8TransferC10transferIdSivM",
+                "usr": "s:12TrustlessSDK8TransferV10transferIdSivM",
+                "mangledName": "$s12TrustlessSDK8TransferV10transferIdSivM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -118,8 +118,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC4typeAA0C4TypeOvp",
-            "mangledName": "$s12TrustlessSDK8TransferC4typeAA0C4TypeOvp",
+            "usr": "s:12TrustlessSDK8TransferV4typeAA0C4TypeOvp",
+            "mangledName": "$s12TrustlessSDK8TransferV4typeAA0C4TypeOvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -141,8 +141,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC4typeAA0C4TypeOvg",
-                "mangledName": "$s12TrustlessSDK8TransferC4typeAA0C4TypeOvg",
+                "usr": "s:12TrustlessSDK8TransferV4typeAA0C4TypeOvg",
+                "mangledName": "$s12TrustlessSDK8TransferV4typeAA0C4TypeOvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -165,8 +165,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC4typeAA0C4TypeOvs",
-                "mangledName": "$s12TrustlessSDK8TransferC4typeAA0C4TypeOvs",
+                "usr": "s:12TrustlessSDK8TransferV4typeAA0C4TypeOvs",
+                "mangledName": "$s12TrustlessSDK8TransferV4typeAA0C4TypeOvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -183,8 +183,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC4typeAA0C4TypeOvM",
-                "mangledName": "$s12TrustlessSDK8TransferC4typeAA0C4TypeOvM",
+                "usr": "s:12TrustlessSDK8TransferV4typeAA0C4TypeOvM",
+                "mangledName": "$s12TrustlessSDK8TransferV4typeAA0C4TypeOvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -204,8 +204,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC12transferTypeSSvp",
-            "mangledName": "$s12TrustlessSDK8TransferC12transferTypeSSvp",
+            "usr": "s:12TrustlessSDK8TransferV12transferTypeSSvp",
+            "mangledName": "$s12TrustlessSDK8TransferV12transferTypeSSvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -227,8 +227,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC12transferTypeSSvg",
-                "mangledName": "$s12TrustlessSDK8TransferC12transferTypeSSvg",
+                "usr": "s:12TrustlessSDK8TransferV12transferTypeSSvg",
+                "mangledName": "$s12TrustlessSDK8TransferV12transferTypeSSvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -251,8 +251,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC12transferTypeSSvs",
-                "mangledName": "$s12TrustlessSDK8TransferC12transferTypeSSvs",
+                "usr": "s:12TrustlessSDK8TransferV12transferTypeSSvs",
+                "mangledName": "$s12TrustlessSDK8TransferV12transferTypeSSvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -269,8 +269,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC12transferTypeSSvM",
-                "mangledName": "$s12TrustlessSDK8TransferC12transferTypeSSvM",
+                "usr": "s:12TrustlessSDK8TransferV12transferTypeSSvM",
+                "mangledName": "$s12TrustlessSDK8TransferV12transferTypeSSvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -290,8 +290,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC12transferNoteSSvp",
-            "mangledName": "$s12TrustlessSDK8TransferC12transferNoteSSvp",
+            "usr": "s:12TrustlessSDK8TransferV12transferNoteSSvp",
+            "mangledName": "$s12TrustlessSDK8TransferV12transferNoteSSvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -313,8 +313,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC12transferNoteSSvg",
-                "mangledName": "$s12TrustlessSDK8TransferC12transferNoteSSvg",
+                "usr": "s:12TrustlessSDK8TransferV12transferNoteSSvg",
+                "mangledName": "$s12TrustlessSDK8TransferV12transferNoteSSvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -337,8 +337,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC12transferNoteSSvs",
-                "mangledName": "$s12TrustlessSDK8TransferC12transferNoteSSvs",
+                "usr": "s:12TrustlessSDK8TransferV12transferNoteSSvs",
+                "mangledName": "$s12TrustlessSDK8TransferV12transferNoteSSvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -355,8 +355,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC12transferNoteSSvM",
-                "mangledName": "$s12TrustlessSDK8TransferC12transferNoteSSvM",
+                "usr": "s:12TrustlessSDK8TransferV12transferNoteSSvM",
+                "mangledName": "$s12TrustlessSDK8TransferV12transferNoteSSvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -384,8 +384,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC9timestampSSSgvp",
-            "mangledName": "$s12TrustlessSDK8TransferC9timestampSSSgvp",
+            "usr": "s:12TrustlessSDK8TransferV9timestampSSSgvp",
+            "mangledName": "$s12TrustlessSDK8TransferV9timestampSSSgvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -416,8 +416,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC9timestampSSSgvg",
-                "mangledName": "$s12TrustlessSDK8TransferC9timestampSSSgvg",
+                "usr": "s:12TrustlessSDK8TransferV9timestampSSSgvg",
+                "mangledName": "$s12TrustlessSDK8TransferV9timestampSSSgvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -448,8 +448,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC9timestampSSSgvs",
-                "mangledName": "$s12TrustlessSDK8TransferC9timestampSSSgvs",
+                "usr": "s:12TrustlessSDK8TransferV9timestampSSSgvs",
+                "mangledName": "$s12TrustlessSDK8TransferV9timestampSSSgvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -466,8 +466,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC9timestampSSSgvM",
-                "mangledName": "$s12TrustlessSDK8TransferC9timestampSSSgvM",
+                "usr": "s:12TrustlessSDK8TransferV9timestampSSSgvM",
+                "mangledName": "$s12TrustlessSDK8TransferV9timestampSSSgvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -487,8 +487,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC6statusAA0C6StatusVvp",
-            "mangledName": "$s12TrustlessSDK8TransferC6statusAA0C6StatusVvp",
+            "usr": "s:12TrustlessSDK8TransferV6statusAA0C6StatusVvp",
+            "mangledName": "$s12TrustlessSDK8TransferV6statusAA0C6StatusVvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -510,8 +510,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC6statusAA0C6StatusVvg",
-                "mangledName": "$s12TrustlessSDK8TransferC6statusAA0C6StatusVvg",
+                "usr": "s:12TrustlessSDK8TransferV6statusAA0C6StatusVvg",
+                "mangledName": "$s12TrustlessSDK8TransferV6statusAA0C6StatusVvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -534,8 +534,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC6statusAA0C6StatusVvs",
-                "mangledName": "$s12TrustlessSDK8TransferC6statusAA0C6StatusVvs",
+                "usr": "s:12TrustlessSDK8TransferV6statusAA0C6StatusVvs",
+                "mangledName": "$s12TrustlessSDK8TransferV6statusAA0C6StatusVvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -552,8 +552,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC6statusAA0C6StatusVvM",
-                "mangledName": "$s12TrustlessSDK8TransferC6statusAA0C6StatusVvM",
+                "usr": "s:12TrustlessSDK8TransferV6statusAA0C6StatusVvM",
+                "mangledName": "$s12TrustlessSDK8TransferV6statusAA0C6StatusVvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -573,8 +573,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC19localCurrencyAmountSdvp",
-            "mangledName": "$s12TrustlessSDK8TransferC19localCurrencyAmountSdvp",
+            "usr": "s:12TrustlessSDK8TransferV19localCurrencyAmountSdvp",
+            "mangledName": "$s12TrustlessSDK8TransferV19localCurrencyAmountSdvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -596,8 +596,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC19localCurrencyAmountSdvg",
-                "mangledName": "$s12TrustlessSDK8TransferC19localCurrencyAmountSdvg",
+                "usr": "s:12TrustlessSDK8TransferV19localCurrencyAmountSdvg",
+                "mangledName": "$s12TrustlessSDK8TransferV19localCurrencyAmountSdvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -620,8 +620,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC19localCurrencyAmountSdvs",
-                "mangledName": "$s12TrustlessSDK8TransferC19localCurrencyAmountSdvs",
+                "usr": "s:12TrustlessSDK8TransferV19localCurrencyAmountSdvs",
+                "mangledName": "$s12TrustlessSDK8TransferV19localCurrencyAmountSdvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -638,8 +638,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC19localCurrencyAmountSdvM",
-                "mangledName": "$s12TrustlessSDK8TransferC19localCurrencyAmountSdvM",
+                "usr": "s:12TrustlessSDK8TransferV19localCurrencyAmountSdvM",
+                "mangledName": "$s12TrustlessSDK8TransferV19localCurrencyAmountSdvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -659,8 +659,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC12exchangeRateSivp",
-            "mangledName": "$s12TrustlessSDK8TransferC12exchangeRateSivp",
+            "usr": "s:12TrustlessSDK8TransferV12exchangeRateSivp",
+            "mangledName": "$s12TrustlessSDK8TransferV12exchangeRateSivp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -682,8 +682,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC12exchangeRateSivg",
-                "mangledName": "$s12TrustlessSDK8TransferC12exchangeRateSivg",
+                "usr": "s:12TrustlessSDK8TransferV12exchangeRateSivg",
+                "mangledName": "$s12TrustlessSDK8TransferV12exchangeRateSivg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -706,8 +706,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC12exchangeRateSivs",
-                "mangledName": "$s12TrustlessSDK8TransferC12exchangeRateSivs",
+                "usr": "s:12TrustlessSDK8TransferV12exchangeRateSivs",
+                "mangledName": "$s12TrustlessSDK8TransferV12exchangeRateSivs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -724,8 +724,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC12exchangeRateSivM",
-                "mangledName": "$s12TrustlessSDK8TransferC12exchangeRateSivM",
+                "usr": "s:12TrustlessSDK8TransferV12exchangeRateSivM",
+                "mangledName": "$s12TrustlessSDK8TransferV12exchangeRateSivM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -745,8 +745,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC16transferCurrencySSvp",
-            "mangledName": "$s12TrustlessSDK8TransferC16transferCurrencySSvp",
+            "usr": "s:12TrustlessSDK8TransferV16transferCurrencySSvp",
+            "mangledName": "$s12TrustlessSDK8TransferV16transferCurrencySSvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -768,8 +768,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC16transferCurrencySSvg",
-                "mangledName": "$s12TrustlessSDK8TransferC16transferCurrencySSvg",
+                "usr": "s:12TrustlessSDK8TransferV16transferCurrencySSvg",
+                "mangledName": "$s12TrustlessSDK8TransferV16transferCurrencySSvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -792,8 +792,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC16transferCurrencySSvs",
-                "mangledName": "$s12TrustlessSDK8TransferC16transferCurrencySSvs",
+                "usr": "s:12TrustlessSDK8TransferV16transferCurrencySSvs",
+                "mangledName": "$s12TrustlessSDK8TransferV16transferCurrencySSvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -810,8 +810,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC16transferCurrencySSvM",
-                "mangledName": "$s12TrustlessSDK8TransferC16transferCurrencySSvM",
+                "usr": "s:12TrustlessSDK8TransferV16transferCurrencySSvM",
+                "mangledName": "$s12TrustlessSDK8TransferV16transferCurrencySSvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -831,8 +831,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC14transferAmountSdvp",
-            "mangledName": "$s12TrustlessSDK8TransferC14transferAmountSdvp",
+            "usr": "s:12TrustlessSDK8TransferV14transferAmountSdvp",
+            "mangledName": "$s12TrustlessSDK8TransferV14transferAmountSdvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -854,8 +854,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC14transferAmountSdvg",
-                "mangledName": "$s12TrustlessSDK8TransferC14transferAmountSdvg",
+                "usr": "s:12TrustlessSDK8TransferV14transferAmountSdvg",
+                "mangledName": "$s12TrustlessSDK8TransferV14transferAmountSdvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -878,8 +878,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC14transferAmountSdvs",
-                "mangledName": "$s12TrustlessSDK8TransferC14transferAmountSdvs",
+                "usr": "s:12TrustlessSDK8TransferV14transferAmountSdvs",
+                "mangledName": "$s12TrustlessSDK8TransferV14transferAmountSdvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -896,8 +896,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC14transferAmountSdvM",
-                "mangledName": "$s12TrustlessSDK8TransferC14transferAmountSdvM",
+                "usr": "s:12TrustlessSDK8TransferV14transferAmountSdvM",
+                "mangledName": "$s12TrustlessSDK8TransferV14transferAmountSdvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -917,8 +917,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC10chargeTypeAA0c6ChargeE0Vvp",
-            "mangledName": "$s12TrustlessSDK8TransferC10chargeTypeAA0c6ChargeE0Vvp",
+            "usr": "s:12TrustlessSDK8TransferV10chargeTypeAA0c6ChargeE0Vvp",
+            "mangledName": "$s12TrustlessSDK8TransferV10chargeTypeAA0c6ChargeE0Vvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -940,8 +940,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC10chargeTypeAA0c6ChargeE0Vvg",
-                "mangledName": "$s12TrustlessSDK8TransferC10chargeTypeAA0c6ChargeE0Vvg",
+                "usr": "s:12TrustlessSDK8TransferV10chargeTypeAA0c6ChargeE0Vvg",
+                "mangledName": "$s12TrustlessSDK8TransferV10chargeTypeAA0c6ChargeE0Vvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -964,8 +964,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC10chargeTypeAA0c6ChargeE0Vvs",
-                "mangledName": "$s12TrustlessSDK8TransferC10chargeTypeAA0c6ChargeE0Vvs",
+                "usr": "s:12TrustlessSDK8TransferV10chargeTypeAA0c6ChargeE0Vvs",
+                "mangledName": "$s12TrustlessSDK8TransferV10chargeTypeAA0c6ChargeE0Vvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -982,8 +982,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC10chargeTypeAA0c6ChargeE0VvM",
-                "mangledName": "$s12TrustlessSDK8TransferC10chargeTypeAA0c6ChargeE0VvM",
+                "usr": "s:12TrustlessSDK8TransferV10chargeTypeAA0c6ChargeE0VvM",
+                "mangledName": "$s12TrustlessSDK8TransferV10chargeTypeAA0c6ChargeE0VvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1003,8 +1003,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC11beneficiaryAA0C11BeneficiaryVvp",
-            "mangledName": "$s12TrustlessSDK8TransferC11beneficiaryAA0C11BeneficiaryVvp",
+            "usr": "s:12TrustlessSDK8TransferV11beneficiaryAA0C11BeneficiaryVvp",
+            "mangledName": "$s12TrustlessSDK8TransferV11beneficiaryAA0C11BeneficiaryVvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -1026,8 +1026,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC11beneficiaryAA0C11BeneficiaryVvg",
-                "mangledName": "$s12TrustlessSDK8TransferC11beneficiaryAA0C11BeneficiaryVvg",
+                "usr": "s:12TrustlessSDK8TransferV11beneficiaryAA0C11BeneficiaryVvg",
+                "mangledName": "$s12TrustlessSDK8TransferV11beneficiaryAA0C11BeneficiaryVvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1050,8 +1050,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC11beneficiaryAA0C11BeneficiaryVvs",
-                "mangledName": "$s12TrustlessSDK8TransferC11beneficiaryAA0C11BeneficiaryVvs",
+                "usr": "s:12TrustlessSDK8TransferV11beneficiaryAA0C11BeneficiaryVvs",
+                "mangledName": "$s12TrustlessSDK8TransferV11beneficiaryAA0C11BeneficiaryVvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1068,8 +1068,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC11beneficiaryAA0C11BeneficiaryVvM",
-                "mangledName": "$s12TrustlessSDK8TransferC11beneficiaryAA0C11BeneficiaryVvM",
+                "usr": "s:12TrustlessSDK8TransferV11beneficiaryAA0C11BeneficiaryVvM",
+                "mangledName": "$s12TrustlessSDK8TransferV11beneficiaryAA0C11BeneficiaryVvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1089,8 +1089,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC4feesAA0C3FeeVvp",
-            "mangledName": "$s12TrustlessSDK8TransferC4feesAA0C3FeeVvp",
+            "usr": "s:12TrustlessSDK8TransferV4feesAA0C3FeeVvp",
+            "mangledName": "$s12TrustlessSDK8TransferV4feesAA0C3FeeVvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -1112,8 +1112,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC4feesAA0C3FeeVvg",
-                "mangledName": "$s12TrustlessSDK8TransferC4feesAA0C3FeeVvg",
+                "usr": "s:12TrustlessSDK8TransferV4feesAA0C3FeeVvg",
+                "mangledName": "$s12TrustlessSDK8TransferV4feesAA0C3FeeVvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1136,8 +1136,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC4feesAA0C3FeeVvs",
-                "mangledName": "$s12TrustlessSDK8TransferC4feesAA0C3FeeVvs",
+                "usr": "s:12TrustlessSDK8TransferV4feesAA0C3FeeVvs",
+                "mangledName": "$s12TrustlessSDK8TransferV4feesAA0C3FeeVvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1154,8 +1154,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC4feesAA0C3FeeVvM",
-                "mangledName": "$s12TrustlessSDK8TransferC4feesAA0C3FeeVvM",
+                "usr": "s:12TrustlessSDK8TransferV4feesAA0C3FeeVvM",
+                "mangledName": "$s12TrustlessSDK8TransferV4feesAA0C3FeeVvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1175,8 +1175,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12TrustlessSDK8TransferC17requiredDocumentsAA0c8RequiredE0Vvp",
-            "mangledName": "$s12TrustlessSDK8TransferC17requiredDocumentsAA0c8RequiredE0Vvp",
+            "usr": "s:12TrustlessSDK8TransferV17requiredDocumentsAA0c8RequiredE0Vvp",
+            "mangledName": "$s12TrustlessSDK8TransferV17requiredDocumentsAA0c8RequiredE0Vvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
               "HasStorage",
@@ -1198,8 +1198,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC17requiredDocumentsAA0c8RequiredE0Vvg",
-                "mangledName": "$s12TrustlessSDK8TransferC17requiredDocumentsAA0c8RequiredE0Vvg",
+                "usr": "s:12TrustlessSDK8TransferV17requiredDocumentsAA0c8RequiredE0Vvg",
+                "mangledName": "$s12TrustlessSDK8TransferV17requiredDocumentsAA0c8RequiredE0Vvg",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1222,8 +1222,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC17requiredDocumentsAA0c8RequiredE0Vvs",
-                "mangledName": "$s12TrustlessSDK8TransferC17requiredDocumentsAA0c8RequiredE0Vvs",
+                "usr": "s:12TrustlessSDK8TransferV17requiredDocumentsAA0c8RequiredE0Vvs",
+                "mangledName": "$s12TrustlessSDK8TransferV17requiredDocumentsAA0c8RequiredE0Vvs",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1240,8 +1240,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK8TransferC17requiredDocumentsAA0c8RequiredE0VvM",
-                "mangledName": "$s12TrustlessSDK8TransferC17requiredDocumentsAA0c8RequiredE0VvM",
+                "usr": "s:12TrustlessSDK8TransferV17requiredDocumentsAA0c8RequiredE0VvM",
+                "mangledName": "$s12TrustlessSDK8TransferV17requiredDocumentsAA0c8RequiredE0VvM",
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1257,7 +1257,7 @@
                 "kind": "TypeNominal",
                 "name": "Transfer",
                 "printedName": "TrustlessSDK.Transfer",
-                "usr": "s:12TrustlessSDK8TransferC"
+                "usr": "s:12TrustlessSDK8TransferV"
               },
               {
                 "kind": "TypeNominal",
@@ -1267,45 +1267,17 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12TrustlessSDK8TransferC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s12TrustlessSDK8TransferC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:12TrustlessSDK8TransferV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12TrustlessSDK8TransferV4fromACs7Decoder_p_tKcfc",
             "moduleName": "TrustlessSDK",
             "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
             "throwing": true,
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12TrustlessSDK8TransferC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s12TrustlessSDK8TransferC6encode2toys7Encoder_p_tKF",
-            "moduleName": "TrustlessSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:12TrustlessSDK8TransferC",
-        "mangledName": "$s12TrustlessSDK8TransferC",
+        "declKind": "Struct",
+        "usr": "s:12TrustlessSDK8TransferV",
+        "mangledName": "$s12TrustlessSDK8TransferV",
         "moduleName": "TrustlessSDK",
         "declAttributes": [
           "AccessControl",
@@ -1318,13 +1290,6 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
           }
         ]
       },
@@ -1661,13 +1626,6 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
           }
         ]
       },
@@ -7519,114 +7477,6 @@
                 "moduleName": "TrustlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "anyValue",
-            "printedName": "anyValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12TrustlessSDK12KYCBaseFieldC8anyValueypSgvp",
-            "mangledName": "$s12TrustlessSDK12KYCBaseFieldC8anyValueypSgvp",
-            "moduleName": "TrustlessSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK12KYCBaseFieldC8anyValueypSgvg",
-                "mangledName": "$s12TrustlessSDK12KYCBaseFieldC8anyValueypSgvg",
-                "moduleName": "TrustlessSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK12KYCBaseFieldC8anyValueypSgvs",
-                "mangledName": "$s12TrustlessSDK12KYCBaseFieldC8anyValueypSgvs",
-                "moduleName": "TrustlessSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK12KYCBaseFieldC8anyValueypSgvM",
-                "mangledName": "$s12TrustlessSDK12KYCBaseFieldC8anyValueypSgvM",
-                "moduleName": "TrustlessSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -16214,6 +16064,7 @@
             "mangledName": "$s12TrustlessSDK14KYCSelectFieldC9optionsEnSayAA0cD5ValueVGvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
+              "SetterAccess",
               "AccessControl",
               "RawDocComment"
             ],
@@ -16243,55 +16094,6 @@
                 "mangledName": "$s12TrustlessSDK14KYCSelectFieldC9optionsEnSayAA0cD5ValueVGvg",
                 "moduleName": "TrustlessSDK",
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[TrustlessSDK.KYCSelectFieldValue]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "KYCSelectFieldValue",
-                        "printedName": "TrustlessSDK.KYCSelectFieldValue",
-                        "usr": "s:12TrustlessSDK19KYCSelectFieldValueV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK14KYCSelectFieldC9optionsEnSayAA0cD5ValueVGvs",
-                "mangledName": "$s12TrustlessSDK14KYCSelectFieldC9optionsEnSayAA0cD5ValueVGvs",
-                "moduleName": "TrustlessSDK",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK14KYCSelectFieldC9optionsEnSayAA0cD5ValueVGvM",
-                "mangledName": "$s12TrustlessSDK14KYCSelectFieldC9optionsEnSayAA0cD5ValueVGvM",
-                "moduleName": "TrustlessSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -16320,6 +16122,7 @@
             "mangledName": "$s12TrustlessSDK14KYCSelectFieldC9optionsArSayAA0cD5ValueVGvp",
             "moduleName": "TrustlessSDK",
             "declAttributes": [
+              "SetterAccess",
               "AccessControl",
               "RawDocComment"
             ],
@@ -16349,55 +16152,6 @@
                 "mangledName": "$s12TrustlessSDK14KYCSelectFieldC9optionsArSayAA0cD5ValueVGvg",
                 "moduleName": "TrustlessSDK",
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[TrustlessSDK.KYCSelectFieldValue]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "KYCSelectFieldValue",
-                        "printedName": "TrustlessSDK.KYCSelectFieldValue",
-                        "usr": "s:12TrustlessSDK19KYCSelectFieldValueV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK14KYCSelectFieldC9optionsArSayAA0cD5ValueVGvs",
-                "mangledName": "$s12TrustlessSDK14KYCSelectFieldC9optionsArSayAA0cD5ValueVGvs",
-                "moduleName": "TrustlessSDK",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDK14KYCSelectFieldC9optionsArSayAA0cD5ValueVGvM",
-                "mangledName": "$s12TrustlessSDK14KYCSelectFieldC9optionsArSayAA0cD5ValueVGvM",
-                "moduleName": "TrustlessSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -19878,7 +19632,7 @@
                     "kind": "TypeNominal",
                     "name": "Transfer",
                     "printedName": "TrustlessSDK.Transfer",
-                    "usr": "s:12TrustlessSDK8TransferC"
+                    "usr": "s:12TrustlessSDK8TransferV"
                   }
                 ],
                 "usr": "s:12TrustlessSDK9PaginatorC"
@@ -19905,8 +19659,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12TrustlessSDK17TransfersProviderP06createC9Paginator4type8pageSizeAA0F0CyAA8TransferCGAA0J4TypeO_SiSgtF",
-            "mangledName": "$s12TrustlessSDK17TransfersProviderP06createC9Paginator4type8pageSizeAA0F0CyAA8TransferCGAA0J4TypeO_SiSgtF",
+            "usr": "s:12TrustlessSDK17TransfersProviderP06createC9Paginator4type8pageSizeAA0F0CyAA8TransferVGAA0J4TypeO_SiSgtF",
+            "mangledName": "$s12TrustlessSDK17TransfersProviderP06createC9Paginator4type8pageSizeAA0F0CyAA8TransferVGAA0J4TypeO_SiSgtF",
             "moduleName": "TrustlessSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : TrustlessSDK.TransfersProvider>",
             "sugared_genericSig": "<Self where Self : TrustlessSDK.TransfersProvider>",
@@ -19931,7 +19685,7 @@
                     "kind": "TypeNominal",
                     "name": "Transfer",
                     "printedName": "TrustlessSDK.Transfer",
-                    "usr": "s:12TrustlessSDK8TransferC"
+                    "usr": "s:12TrustlessSDK8TransferV"
                   }
                 ],
                 "usr": "s:12TrustlessSDK9PaginatorC"
@@ -19972,8 +19726,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12TrustlessSDK17TransfersProviderP06createC9Paginator4type8pageSize6paramsAA0F0CyAA8TransferCGAA0K4TypeO_SiSgAA03GetC6ParamsVSgtF",
-            "mangledName": "$s12TrustlessSDK17TransfersProviderP06createC9Paginator4type8pageSize6paramsAA0F0CyAA8TransferCGAA0K4TypeO_SiSgAA03GetC6ParamsVSgtF",
+            "usr": "s:12TrustlessSDK17TransfersProviderP06createC9Paginator4type8pageSize6paramsAA0F0CyAA8TransferVGAA0K4TypeO_SiSgAA03GetC6ParamsVSgtF",
+            "mangledName": "$s12TrustlessSDK17TransfersProviderP06createC9Paginator4type8pageSize6paramsAA0F0CyAA8TransferVGAA0K4TypeO_SiSgAA03GetC6ParamsVSgtF",
             "moduleName": "TrustlessSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : TrustlessSDK.TransfersProvider>",
             "sugared_genericSig": "<Self where Self : TrustlessSDK.TransfersProvider>",
@@ -20031,7 +19785,7 @@
                         "kind": "TypeNominal",
                         "name": "Transfer",
                         "printedName": "TrustlessSDK.Transfer",
-                        "usr": "s:12TrustlessSDK8TransferC"
+                        "usr": "s:12TrustlessSDK8TransferV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -20046,8 +19800,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12TrustlessSDK17TransfersProviderP11getTransfer4byId10completionyycSi_ys6ResultOyAA0F0CAA0A5ErrorOGctF",
-            "mangledName": "$s12TrustlessSDK17TransfersProviderP11getTransfer4byId10completionyycSi_ys6ResultOyAA0F0CAA0A5ErrorOGctF",
+            "usr": "s:12TrustlessSDK17TransfersProviderP11getTransfer4byId10completionyycSi_ys6ResultOyAA0F0VAA0A5ErrorOGctF",
+            "mangledName": "$s12TrustlessSDK17TransfersProviderP11getTransfer4byId10completionyycSi_ys6ResultOyAA0F0VAA0A5ErrorOGctF",
             "moduleName": "TrustlessSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : TrustlessSDK.TransfersProvider>",
             "sugared_genericSig": "<Self where Self : TrustlessSDK.TransfersProvider>",
@@ -20105,7 +19859,7 @@
                         "kind": "TypeNominal",
                         "name": "Transfer",
                         "printedName": "TrustlessSDK.Transfer",
-                        "usr": "s:12TrustlessSDK8TransferC"
+                        "usr": "s:12TrustlessSDK8TransferV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -20120,8 +19874,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12TrustlessSDK17TransfersProviderP14createInternal6params10completionyycAA06CreateF14TransferParamsV_ys6ResultOyAA0J0CAA0A5ErrorOGctF",
-            "mangledName": "$s12TrustlessSDK17TransfersProviderP14createInternal6params10completionyycAA06CreateF14TransferParamsV_ys6ResultOyAA0J0CAA0A5ErrorOGctF",
+            "usr": "s:12TrustlessSDK17TransfersProviderP14createInternal6params10completionyycAA06CreateF14TransferParamsV_ys6ResultOyAA0J0VAA0A5ErrorOGctF",
+            "mangledName": "$s12TrustlessSDK17TransfersProviderP14createInternal6params10completionyycAA06CreateF14TransferParamsV_ys6ResultOyAA0J0VAA0A5ErrorOGctF",
             "moduleName": "TrustlessSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : TrustlessSDK.TransfersProvider>",
             "sugared_genericSig": "<Self where Self : TrustlessSDK.TransfersProvider>",
@@ -20179,7 +19933,7 @@
                         "kind": "TypeNominal",
                         "name": "Transfer",
                         "printedName": "TrustlessSDK.Transfer",
-                        "usr": "s:12TrustlessSDK8TransferC"
+                        "usr": "s:12TrustlessSDK8TransferV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -20194,8 +19948,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12TrustlessSDK17TransfersProviderP10createCliQ6params10completionyycAA06CreateF15QTransferParamsV_ys6ResultOyAA8TransferCAA0A5ErrorOGctF",
-            "mangledName": "$s12TrustlessSDK17TransfersProviderP10createCliQ6params10completionyycAA06CreateF15QTransferParamsV_ys6ResultOyAA8TransferCAA0A5ErrorOGctF",
+            "usr": "s:12TrustlessSDK17TransfersProviderP10createCliQ6params10completionyycAA06CreateF15QTransferParamsV_ys6ResultOyAA8TransferVAA0A5ErrorOGctF",
+            "mangledName": "$s12TrustlessSDK17TransfersProviderP10createCliQ6params10completionyycAA06CreateF15QTransferParamsV_ys6ResultOyAA8TransferVAA0A5ErrorOGctF",
             "moduleName": "TrustlessSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : TrustlessSDK.TransfersProvider>",
             "sugared_genericSig": "<Self where Self : TrustlessSDK.TransfersProvider>",
@@ -20273,7 +20027,7 @@
                         "kind": "TypeNominal",
                         "name": "Transfer",
                         "printedName": "TrustlessSDK.Transfer",
-                        "usr": "s:12TrustlessSDK8TransferC"
+                        "usr": "s:12TrustlessSDK8TransferV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -20288,8 +20042,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12TrustlessSDK17TransfersProviderP7confirm4byId5files10completionyycSi_SDySSAA0A4FileVGys6ResultOyAA8TransferCAA0A5ErrorOGctF",
-            "mangledName": "$s12TrustlessSDK17TransfersProviderP7confirm4byId5files10completionyycSi_SDySSAA0A4FileVGys6ResultOyAA8TransferCAA0A5ErrorOGctF",
+            "usr": "s:12TrustlessSDK17TransfersProviderP7confirm4byId5files10completionyycSi_SDySSAA0A4FileVGys6ResultOyAA8TransferVAA0A5ErrorOGctF",
+            "mangledName": "$s12TrustlessSDK17TransfersProviderP7confirm4byId5files10completionyycSi_SDySSAA0A4FileVGys6ResultOyAA8TransferVAA0A5ErrorOGctF",
             "moduleName": "TrustlessSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : TrustlessSDK.TransfersProvider>",
             "sugared_genericSig": "<Self where Self : TrustlessSDK.TransfersProvider>",
@@ -20326,6 +20080,912 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "TrustlessSDK"
+      },
+      {
+        "kind": "Var",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "TrustlessSDKFramework",
+            "printedName": "TrustlessSDK.TrustlessSDKFramework",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12TrustlessSDKA2A0A12SDKFrameworkCvp",
+        "mangledName": "$s12TrustlessSDKA2A0A12SDKFrameworkCvp",
+        "moduleName": "TrustlessSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrustlessSDKFramework",
+                "printedName": "TrustlessSDK.TrustlessSDKFramework",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12TrustlessSDKA2A0A12SDKFrameworkCvg",
+            "mangledName": "$s12TrustlessSDKA2A0A12SDKFrameworkCvg",
+            "moduleName": "TrustlessSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrustlessSDKFramework",
+        "printedName": "TrustlessSDKFramework",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isCustomer",
+            "printedName": "isCustomer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC10isCustomerSbvp",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC10isCustomerSbvp",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC10isCustomerSbvg",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC10isCustomerSbvg",
+                "moduleName": "TrustlessSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identityProvider",
+            "printedName": "identityProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdentityProvider",
+                "printedName": "TrustlessSDK.IdentityProvider",
+                "usr": "s:12TrustlessSDK16IdentityProviderP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC16identityProviderAA08IdentityE0_pvp",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16identityProviderAA08IdentityE0_pvp",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentityProvider",
+                    "printedName": "TrustlessSDK.IdentityProvider",
+                    "usr": "s:12TrustlessSDK16IdentityProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC16identityProviderAA08IdentityE0_pvg",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16identityProviderAA08IdentityE0_pvg",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentityProvider",
+                    "printedName": "TrustlessSDK.IdentityProvider",
+                    "usr": "s:12TrustlessSDK16IdentityProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC16identityProviderAA08IdentityE0_pvs",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16identityProviderAA08IdentityE0_pvs",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC16identityProviderAA08IdentityE0_pvM",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16identityProviderAA08IdentityE0_pvM",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "kycProvider",
+            "printedName": "kycProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KYCProvider",
+                "printedName": "TrustlessSDK.KYCProvider",
+                "usr": "s:12TrustlessSDK11KYCProviderP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC11kycProviderAA11KYCProvider_pvp",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC11kycProviderAA11KYCProvider_pvp",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KYCProvider",
+                    "printedName": "TrustlessSDK.KYCProvider",
+                    "usr": "s:12TrustlessSDK11KYCProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC11kycProviderAA11KYCProvider_pvg",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC11kycProviderAA11KYCProvider_pvg",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KYCProvider",
+                    "printedName": "TrustlessSDK.KYCProvider",
+                    "usr": "s:12TrustlessSDK11KYCProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC11kycProviderAA11KYCProvider_pvs",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC11kycProviderAA11KYCProvider_pvs",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC11kycProviderAA11KYCProvider_pvM",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC11kycProviderAA11KYCProvider_pvM",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountsProvider",
+            "printedName": "accountsProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccountsProvider",
+                "printedName": "TrustlessSDK.AccountsProvider",
+                "usr": "s:12TrustlessSDK16AccountsProviderP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC16accountsProviderAA08AccountsE0_pvp",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16accountsProviderAA08AccountsE0_pvp",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccountsProvider",
+                    "printedName": "TrustlessSDK.AccountsProvider",
+                    "usr": "s:12TrustlessSDK16AccountsProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC16accountsProviderAA08AccountsE0_pvg",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16accountsProviderAA08AccountsE0_pvg",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccountsProvider",
+                    "printedName": "TrustlessSDK.AccountsProvider",
+                    "usr": "s:12TrustlessSDK16AccountsProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC16accountsProviderAA08AccountsE0_pvs",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16accountsProviderAA08AccountsE0_pvs",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC16accountsProviderAA08AccountsE0_pvM",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16accountsProviderAA08AccountsE0_pvM",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardsProvider",
+            "printedName": "cardsProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardsProvider",
+                "printedName": "TrustlessSDK.CardsProvider",
+                "usr": "s:12TrustlessSDK13CardsProviderP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC13cardsProviderAA05CardsE0_pvp",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC13cardsProviderAA05CardsE0_pvp",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardsProvider",
+                    "printedName": "TrustlessSDK.CardsProvider",
+                    "usr": "s:12TrustlessSDK13CardsProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC13cardsProviderAA05CardsE0_pvg",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC13cardsProviderAA05CardsE0_pvg",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardsProvider",
+                    "printedName": "TrustlessSDK.CardsProvider",
+                    "usr": "s:12TrustlessSDK13CardsProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC13cardsProviderAA05CardsE0_pvs",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC13cardsProviderAA05CardsE0_pvs",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC13cardsProviderAA05CardsE0_pvM",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC13cardsProviderAA05CardsE0_pvM",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transfersProvider",
+            "printedName": "transfersProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransfersProvider",
+                "printedName": "TrustlessSDK.TransfersProvider",
+                "usr": "s:12TrustlessSDK17TransfersProviderP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC17transfersProviderAA09TransfersE0_pvp",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC17transfersProviderAA09TransfersE0_pvp",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransfersProvider",
+                    "printedName": "TrustlessSDK.TransfersProvider",
+                    "usr": "s:12TrustlessSDK17TransfersProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC17transfersProviderAA09TransfersE0_pvg",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC17transfersProviderAA09TransfersE0_pvg",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransfersProvider",
+                    "printedName": "TrustlessSDK.TransfersProvider",
+                    "usr": "s:12TrustlessSDK17TransfersProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC17transfersProviderAA09TransfersE0_pvs",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC17transfersProviderAA09TransfersE0_pvs",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC17transfersProviderAA09TransfersE0_pvM",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC17transfersProviderAA09TransfersE0_pvM",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cliQProvider",
+            "printedName": "cliQProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CliQProvider",
+                "printedName": "TrustlessSDK.CliQProvider",
+                "usr": "s:12TrustlessSDK12CliQProviderP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC12cliQProviderAA03CliE0_pvp",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC12cliQProviderAA03CliE0_pvp",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CliQProvider",
+                    "printedName": "TrustlessSDK.CliQProvider",
+                    "usr": "s:12TrustlessSDK12CliQProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC12cliQProviderAA03CliE0_pvg",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC12cliQProviderAA03CliE0_pvg",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CliQProvider",
+                    "printedName": "TrustlessSDK.CliQProvider",
+                    "usr": "s:12TrustlessSDK12CliQProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC12cliQProviderAA03CliE0_pvs",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC12cliQProviderAA03CliE0_pvs",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC12cliQProviderAA03CliE0_pvM",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC12cliQProviderAA03CliE0_pvM",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "simulateProvider",
+            "printedName": "simulateProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SimulateProvider",
+                "printedName": "TrustlessSDK.SimulateProvider",
+                "usr": "s:12TrustlessSDK16SimulateProviderP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC16simulateProviderAA08SimulateE0_pvp",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16simulateProviderAA08SimulateE0_pvp",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SimulateProvider",
+                    "printedName": "TrustlessSDK.SimulateProvider",
+                    "usr": "s:12TrustlessSDK16SimulateProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC16simulateProviderAA08SimulateE0_pvg",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16simulateProviderAA08SimulateE0_pvg",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SimulateProvider",
+                    "printedName": "TrustlessSDK.SimulateProvider",
+                    "usr": "s:12TrustlessSDK16SimulateProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC16simulateProviderAA08SimulateE0_pvs",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16simulateProviderAA08SimulateE0_pvs",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A12SDKFrameworkC16simulateProviderAA08SimulateE0_pvM",
+                "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC16simulateProviderAA08SimulateE0_pvM",
+                "moduleName": "TrustlessSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(clientId:clientSecret:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC10initialize8clientId0E6SecretySS_SStF",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC10initialize8clientId0E6SecretySS_SStF",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureClientCertificate",
+            "printedName": "configureClientCertificate(certificateData:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC26configureClientCertificate15certificateData8passwordy10Foundation0H0V_SSSgtF",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC26configureClientCertificate15certificateData8passwordy10Foundation0H0V_SSSgtF",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureSecurity",
+            "printedName": "configureSecurity(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrustlessSecurityConfig",
+                "printedName": "TrustlessSDK.TrustlessSecurityConfig",
+                "usr": "s:12TrustlessSDK0A14SecurityConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC17configureSecurity6configyAA0aE6ConfigV_tF",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC17configureSecurity6configyAA0aE6ConfigV_tF",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDelegate",
+            "printedName": "setDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrustlessSDKDelegate",
+                "printedName": "TrustlessSDK.TrustlessSDKDelegate",
+                "usr": "s:12TrustlessSDK0A11SDKDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12TrustlessSDK0A12SDKFrameworkC11setDelegateyyAA0A11SDKDelegate_pF",
+            "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC11setDelegateyyAA0A11SDKDelegate_pF",
+            "moduleName": "TrustlessSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12TrustlessSDK0A12SDKFrameworkC",
+        "mangledName": "$s12TrustlessSDK0A12SDKFrameworkC",
+        "moduleName": "TrustlessSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "TypeDecl",
@@ -20393,833 +21053,6 @@
         "moduleName": "TrustlessSDK",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "isCustomer",
-            "printedName": "isCustomer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12TrustlessSDKAAO10isCustomerSbvpZ",
-            "mangledName": "$s12TrustlessSDKAAO10isCustomerSbvpZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO10isCustomerSbvgZ",
-                "mangledName": "$s12TrustlessSDKAAO10isCustomerSbvgZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "identityProvider",
-            "printedName": "identityProvider",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IdentityProvider",
-                "printedName": "TrustlessSDK.IdentityProvider",
-                "usr": "s:12TrustlessSDK16IdentityProviderP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12TrustlessSDKAAO16identityProviderAA08IdentityD0_pvpZ",
-            "mangledName": "$s12TrustlessSDKAAO16identityProviderAA08IdentityD0_pvpZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IdentityProvider",
-                    "printedName": "TrustlessSDK.IdentityProvider",
-                    "usr": "s:12TrustlessSDK16IdentityProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO16identityProviderAA08IdentityD0_pvgZ",
-                "mangledName": "$s12TrustlessSDKAAO16identityProviderAA08IdentityD0_pvgZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IdentityProvider",
-                    "printedName": "TrustlessSDK.IdentityProvider",
-                    "usr": "s:12TrustlessSDK16IdentityProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO16identityProviderAA08IdentityD0_pvsZ",
-                "mangledName": "$s12TrustlessSDKAAO16identityProviderAA08IdentityD0_pvsZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO16identityProviderAA08IdentityD0_pvMZ",
-                "mangledName": "$s12TrustlessSDKAAO16identityProviderAA08IdentityD0_pvMZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "kycProvider",
-            "printedName": "kycProvider",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KYCProvider",
-                "printedName": "TrustlessSDK.KYCProvider",
-                "usr": "s:12TrustlessSDK11KYCProviderP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12TrustlessSDKAAO11kycProviderAA11KYCProvider_pvpZ",
-            "mangledName": "$s12TrustlessSDKAAO11kycProviderAA11KYCProvider_pvpZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KYCProvider",
-                    "printedName": "TrustlessSDK.KYCProvider",
-                    "usr": "s:12TrustlessSDK11KYCProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO11kycProviderAA11KYCProvider_pvgZ",
-                "mangledName": "$s12TrustlessSDKAAO11kycProviderAA11KYCProvider_pvgZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KYCProvider",
-                    "printedName": "TrustlessSDK.KYCProvider",
-                    "usr": "s:12TrustlessSDK11KYCProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO11kycProviderAA11KYCProvider_pvsZ",
-                "mangledName": "$s12TrustlessSDKAAO11kycProviderAA11KYCProvider_pvsZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO11kycProviderAA11KYCProvider_pvMZ",
-                "mangledName": "$s12TrustlessSDKAAO11kycProviderAA11KYCProvider_pvMZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountsProvider",
-            "printedName": "accountsProvider",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AccountsProvider",
-                "printedName": "TrustlessSDK.AccountsProvider",
-                "usr": "s:12TrustlessSDK16AccountsProviderP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12TrustlessSDKAAO16accountsProviderAA08AccountsD0_pvpZ",
-            "mangledName": "$s12TrustlessSDKAAO16accountsProviderAA08AccountsD0_pvpZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AccountsProvider",
-                    "printedName": "TrustlessSDK.AccountsProvider",
-                    "usr": "s:12TrustlessSDK16AccountsProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO16accountsProviderAA08AccountsD0_pvgZ",
-                "mangledName": "$s12TrustlessSDKAAO16accountsProviderAA08AccountsD0_pvgZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AccountsProvider",
-                    "printedName": "TrustlessSDK.AccountsProvider",
-                    "usr": "s:12TrustlessSDK16AccountsProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO16accountsProviderAA08AccountsD0_pvsZ",
-                "mangledName": "$s12TrustlessSDKAAO16accountsProviderAA08AccountsD0_pvsZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO16accountsProviderAA08AccountsD0_pvMZ",
-                "mangledName": "$s12TrustlessSDKAAO16accountsProviderAA08AccountsD0_pvMZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "cardsProvider",
-            "printedName": "cardsProvider",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CardsProvider",
-                "printedName": "TrustlessSDK.CardsProvider",
-                "usr": "s:12TrustlessSDK13CardsProviderP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12TrustlessSDKAAO13cardsProviderAA05CardsD0_pvpZ",
-            "mangledName": "$s12TrustlessSDKAAO13cardsProviderAA05CardsD0_pvpZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CardsProvider",
-                    "printedName": "TrustlessSDK.CardsProvider",
-                    "usr": "s:12TrustlessSDK13CardsProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO13cardsProviderAA05CardsD0_pvgZ",
-                "mangledName": "$s12TrustlessSDKAAO13cardsProviderAA05CardsD0_pvgZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CardsProvider",
-                    "printedName": "TrustlessSDK.CardsProvider",
-                    "usr": "s:12TrustlessSDK13CardsProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO13cardsProviderAA05CardsD0_pvsZ",
-                "mangledName": "$s12TrustlessSDKAAO13cardsProviderAA05CardsD0_pvsZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO13cardsProviderAA05CardsD0_pvMZ",
-                "mangledName": "$s12TrustlessSDKAAO13cardsProviderAA05CardsD0_pvMZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "transfersProvider",
-            "printedName": "transfersProvider",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TransfersProvider",
-                "printedName": "TrustlessSDK.TransfersProvider",
-                "usr": "s:12TrustlessSDK17TransfersProviderP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12TrustlessSDKAAO17transfersProviderAA09TransfersD0_pvpZ",
-            "mangledName": "$s12TrustlessSDKAAO17transfersProviderAA09TransfersD0_pvpZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TransfersProvider",
-                    "printedName": "TrustlessSDK.TransfersProvider",
-                    "usr": "s:12TrustlessSDK17TransfersProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO17transfersProviderAA09TransfersD0_pvgZ",
-                "mangledName": "$s12TrustlessSDKAAO17transfersProviderAA09TransfersD0_pvgZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TransfersProvider",
-                    "printedName": "TrustlessSDK.TransfersProvider",
-                    "usr": "s:12TrustlessSDK17TransfersProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO17transfersProviderAA09TransfersD0_pvsZ",
-                "mangledName": "$s12TrustlessSDKAAO17transfersProviderAA09TransfersD0_pvsZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO17transfersProviderAA09TransfersD0_pvMZ",
-                "mangledName": "$s12TrustlessSDKAAO17transfersProviderAA09TransfersD0_pvMZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "cliQProvider",
-            "printedName": "cliQProvider",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CliQProvider",
-                "printedName": "TrustlessSDK.CliQProvider",
-                "usr": "s:12TrustlessSDK12CliQProviderP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12TrustlessSDKAAO12cliQProviderAA03CliD0_pvpZ",
-            "mangledName": "$s12TrustlessSDKAAO12cliQProviderAA03CliD0_pvpZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CliQProvider",
-                    "printedName": "TrustlessSDK.CliQProvider",
-                    "usr": "s:12TrustlessSDK12CliQProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO12cliQProviderAA03CliD0_pvgZ",
-                "mangledName": "$s12TrustlessSDKAAO12cliQProviderAA03CliD0_pvgZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CliQProvider",
-                    "printedName": "TrustlessSDK.CliQProvider",
-                    "usr": "s:12TrustlessSDK12CliQProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO12cliQProviderAA03CliD0_pvsZ",
-                "mangledName": "$s12TrustlessSDKAAO12cliQProviderAA03CliD0_pvsZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO12cliQProviderAA03CliD0_pvMZ",
-                "mangledName": "$s12TrustlessSDKAAO12cliQProviderAA03CliD0_pvMZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "simulateProvider",
-            "printedName": "simulateProvider",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SimulateProvider",
-                "printedName": "TrustlessSDK.SimulateProvider",
-                "usr": "s:12TrustlessSDK16SimulateProviderP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12TrustlessSDKAAO16simulateProviderAA08SimulateD0_pvpZ",
-            "mangledName": "$s12TrustlessSDKAAO16simulateProviderAA08SimulateD0_pvpZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SimulateProvider",
-                    "printedName": "TrustlessSDK.SimulateProvider",
-                    "usr": "s:12TrustlessSDK16SimulateProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO16simulateProviderAA08SimulateD0_pvgZ",
-                "mangledName": "$s12TrustlessSDKAAO16simulateProviderAA08SimulateD0_pvgZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SimulateProvider",
-                    "printedName": "TrustlessSDK.SimulateProvider",
-                    "usr": "s:12TrustlessSDK16SimulateProviderP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO16simulateProviderAA08SimulateD0_pvsZ",
-                "mangledName": "$s12TrustlessSDKAAO16simulateProviderAA08SimulateD0_pvsZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12TrustlessSDKAAO16simulateProviderAA08SimulateD0_pvMZ",
-                "mangledName": "$s12TrustlessSDKAAO16simulateProviderAA08SimulateD0_pvMZ",
-                "moduleName": "TrustlessSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "initialize",
-            "printedName": "initialize(clientId:clientSecret:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12TrustlessSDKAAO10initialize8clientId0D6SecretySS_SStFZ",
-            "mangledName": "$s12TrustlessSDKAAO10initialize8clientId0D6SecretySS_SStFZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "configureClientCertificate",
-            "printedName": "configureClientCertificate(certificateData:password:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12TrustlessSDKAAO26configureClientCertificate15certificateData8passwordy10Foundation0G0V_SSSgtFZ",
-            "mangledName": "$s12TrustlessSDKAAO26configureClientCertificate15certificateData8passwordy10Foundation0G0V_SSSgtFZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "configureSecurity",
-            "printedName": "configureSecurity(config:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "TrustlessSecurityConfig",
-                "printedName": "TrustlessSDK.TrustlessSecurityConfig",
-                "usr": "s:12TrustlessSDK0A14SecurityConfigV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12TrustlessSDKAAO17configureSecurity6configyAA0aD6ConfigV_tFZ",
-            "mangledName": "$s12TrustlessSDKAAO17configureSecurity6configyAA0aD6ConfigV_tFZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setDelegate",
-            "printedName": "setDelegate(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "TrustlessSDKDelegate",
-                "printedName": "TrustlessSDK.TrustlessSDKDelegate",
-                "usr": "s:12TrustlessSDK0A11SDKDelegateP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12TrustlessSDKAAO11setDelegateyyAA0A11SDKDelegate_pFZ",
-            "mangledName": "$s12TrustlessSDKAAO11setDelegateyyAA0A11SDKDelegate_pFZ",
-            "moduleName": "TrustlessSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:12TrustlessSDKAAO",
-        "mangledName": "$s12TrustlessSDKAAO",
-        "moduleName": "TrustlessSDK",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -38869,588 +38702,588 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 1795,
       "length": 12,
       "value": "\"TransferId\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 1828,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1860,
+      "offset": 1863,
       "length": 14,
       "value": "\"TransferType\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 1906,
       "length": 14,
       "value": "\"TransferNote\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 1946,
       "length": 11,
       "value": "\"Timestamp\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1977,
+      "offset": 1980,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2024,
       "length": 21,
       "value": "\"LocalCurrencyAmount\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 2074,
       "length": 14,
       "value": "\"ExchangeRate\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2118,
+      "offset": 2121,
       "length": 18,
       "value": "\"TransferCurrency\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2167,
+      "offset": 2170,
       "length": 16,
       "value": "\"TransferAmount\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2210,
+      "offset": 2213,
       "length": 12,
       "value": "\"ChargeType\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2250,
+      "offset": 2253,
       "length": 13,
       "value": "\"Beneficiary\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2287,
       "length": 6,
       "value": "\"Fees\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2324,
+      "offset": 2327,
       "length": 19,
       "value": "\"RequiredDocuments\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 1795,
       "length": 12,
       "value": "\"TransferId\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 1828,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1860,
+      "offset": 1863,
       "length": 14,
       "value": "\"TransferType\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 1906,
       "length": 14,
       "value": "\"TransferNote\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 1946,
       "length": 11,
       "value": "\"Timestamp\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 1977,
+      "offset": 1980,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2024,
       "length": 21,
       "value": "\"LocalCurrencyAmount\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 2074,
       "length": 14,
       "value": "\"ExchangeRate\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2118,
+      "offset": 2121,
       "length": 18,
       "value": "\"TransferCurrency\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2167,
+      "offset": 2170,
       "length": 16,
       "value": "\"TransferAmount\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2210,
+      "offset": 2213,
       "length": 12,
       "value": "\"ChargeType\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2250,
+      "offset": 2253,
       "length": 13,
       "value": "\"Beneficiary\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2287,
       "length": 6,
       "value": "\"Fees\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2324,
+      "offset": 2327,
       "length": 19,
       "value": "\"RequiredDocuments\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2690,
+      "offset": 2695,
       "length": 10,
       "value": "\"Standing\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2821,
+      "offset": 2826,
       "length": 7,
       "value": "\"Saved\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2883,
+      "offset": 2888,
       "length": 10,
       "value": "\"Transfer\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2981,
+      "offset": 2986,
       "length": 6,
       "value": "\"Goal\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 3112,
+      "offset": 3117,
       "length": 5,
       "value": "\"ALL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 3637,
+      "offset": 3642,
       "length": 10,
       "value": "\"Standing\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 3691,
+      "offset": 3696,
       "length": 7,
       "value": "\"Saved\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 3739,
+      "offset": 3744,
       "length": 10,
       "value": "\"Transfer\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 3793,
+      "offset": 3798,
       "length": 6,
       "value": "\"Goal\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2690,
+      "offset": 2695,
       "length": 10,
       "value": "\"Standing\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2821,
+      "offset": 2826,
       "length": 7,
       "value": "\"Saved\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2883,
+      "offset": 2888,
       "length": 10,
       "value": "\"Transfer\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 2981,
+      "offset": 2986,
       "length": 6,
       "value": "\"Goal\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 3112,
+      "offset": 3117,
       "length": 5,
       "value": "\"ALL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 4976,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 4996,
+      "offset": 5001,
       "length": 6,
       "value": "\"Code\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5023,
+      "offset": 5028,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5051,
+      "offset": 5056,
       "length": 7,
       "value": "\"Label\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5082,
+      "offset": 5087,
       "length": 9,
       "value": "\"LabelAr\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 4976,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 4996,
+      "offset": 5001,
       "length": 6,
       "value": "\"Code\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5023,
+      "offset": 5028,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5051,
+      "offset": 5056,
       "length": 7,
       "value": "\"Label\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5082,
+      "offset": 5087,
       "length": 9,
       "value": "\"LabelAr\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5733,
+      "offset": 5738,
       "length": 14,
       "value": "\"ChargeTypeId\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5778,
+      "offset": 5783,
       "length": 16,
       "value": "\"ChargeTypeCode\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5825,
+      "offset": 5830,
       "length": 16,
       "value": "\"ChargeTypeName\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5733,
+      "offset": 5738,
       "length": 14,
       "value": "\"ChargeTypeId\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5778,
+      "offset": 5783,
       "length": 16,
       "value": "\"ChargeTypeCode\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 5825,
+      "offset": 5830,
       "length": 16,
       "value": "\"ChargeTypeName\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6842,
+      "offset": 6847,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6870,
+      "offset": 6875,
       "length": 7,
       "value": "\"Alias\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6901,
+      "offset": 6906,
       "length": 9,
       "value": "\"Account\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6934,
+      "offset": 6939,
       "length": 9,
       "value": "\"Address\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6968,
+      "offset": 6973,
       "length": 10,
       "value": "\"BankCode\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 7006,
+      "offset": 7011,
       "length": 13,
       "value": "\"BankCountry\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 7040,
+      "offset": 7045,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6842,
+      "offset": 6847,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6870,
+      "offset": 6875,
       "length": 7,
       "value": "\"Alias\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6901,
+      "offset": 6906,
       "length": 9,
       "value": "\"Account\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6934,
+      "offset": 6939,
       "length": 9,
       "value": "\"Address\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 6968,
+      "offset": 6973,
       "length": 10,
       "value": "\"BankCode\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 7006,
+      "offset": 7011,
       "length": 13,
       "value": "\"BankCountry\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 7040,
+      "offset": 7045,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 7631,
+      "offset": 7636,
       "length": 8,
       "value": "\"Amount\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 7664,
+      "offset": 7669,
       "length": 10,
       "value": "\"Currency\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 7631,
+      "offset": 7636,
       "length": 8,
       "value": "\"Amount\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 7664,
+      "offset": 7669,
       "length": 10,
       "value": "\"Currency\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 8703,
+      "offset": 8708,
       "length": 23,
       "value": "\"RequiredDocumentCount\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 8764,
+      "offset": 8769,
       "length": 23,
       "value": "\"RequiredDocumentsList\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 8827,
+      "offset": 8832,
       "length": 25,
       "value": "\"RequiredDocumentsListAr\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 8888,
+      "offset": 8893,
       "length": 21,
       "value": "\"IsDocumentsRequired\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 8703,
+      "offset": 8708,
       "length": 23,
       "value": "\"RequiredDocumentCount\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 8764,
+      "offset": 8769,
       "length": 23,
       "value": "\"RequiredDocumentsList\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 8827,
+      "offset": 8832,
       "length": 25,
       "value": "\"RequiredDocumentsListAr\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/TransfersProvider\/Responses\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 8888,
+      "offset": 8893,
       "length": 21,
       "value": "\"IsDocumentsRequired\""
     },
@@ -40423,245 +40256,245 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2342,
+      "offset": 2344,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 2860,
+      "offset": 2862,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "IntegerLiteral",
-      "offset": 3149,
+      "offset": 3151,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 3261,
+      "offset": 3263,
       "length": 50,
       "value": "\"KYCBaseField: Method putValue is not implemented\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 3667,
+      "offset": 3669,
       "length": 19,
       "value": "\"Field is required\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 3826,
+      "offset": 3828,
       "length": 19,
       "value": "\"Field is required\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 4637,
+      "offset": 4639,
       "length": 56,
       "value": "\"KYCBaseField: Method getStringValue is not implemented\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 4797,
+      "offset": 4799,
       "length": 56,
       "value": "\"KYCBaseField: Method getStringValue is not implemented\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 5289,
+      "offset": 5291,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 5318,
+      "offset": 5320,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "IntegerLiteral",
-      "offset": 5504,
+      "offset": 5506,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 5537,
+      "offset": 5539,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "IntegerLiteral",
-      "offset": 5723,
+      "offset": 5725,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 5756,
+      "offset": 5758,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 5802,
+      "offset": 5804,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 5966,
+      "offset": 5968,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 6004,
+      "offset": 6006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 6316,
+      "offset": 6318,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 6536,
+      "offset": 6538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 6939,
+      "offset": 6941,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 6944,
+      "offset": 6946,
       "length": 4,
       "value": "\"In\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 7194,
+      "offset": 7196,
       "length": 4,
       "value": "\"<>\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 7200,
+      "offset": 7202,
       "length": 8,
       "value": "\"Not In\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 7485,
+      "offset": 7487,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 7600,
+      "offset": 7602,
       "length": 5,
       "value": "\"AND\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 7665,
+      "offset": 7667,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 7683,
+      "offset": 7685,
       "length": 4,
       "value": "\"OR\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 7745,
+      "offset": 7747,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 7825,
+      "offset": 7827,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 8053,
+      "offset": 8055,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "BooleanLiteral",
-      "offset": 8130,
+      "offset": 8132,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 8602,
+      "offset": 8604,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 8626,
+      "offset": 8628,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 8677,
+      "offset": 8679,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCBaseField.swift",
       "kind": "StringLiteral",
-      "offset": 8742,
+      "offset": 8744,
       "length": 7,
       "value": "\"Error\""
     },
@@ -42565,28 +42398,28 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCSelectField.swift",
       "kind": "Array",
-      "offset": 574,
+      "offset": 588,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCSelectField.swift",
       "kind": "Array",
-      "offset": 1219,
+      "offset": 1247,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCSelectField.swift",
       "kind": "Array",
-      "offset": 1654,
+      "offset": 1682,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/Providers\/KYCProvider\/Models\/Fields\/KYCSelectField.swift",
       "kind": "Array",
-      "offset": 1709,
+      "offset": 1737,
       "length": 2,
       "value": "[]"
     },
@@ -43265,7 +43098,7 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/TrustlessSDK\/TrustlessSDK\/TrustlessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5567,
+      "offset": 5019,
       "length": 2,
       "value": "\"\""
     },

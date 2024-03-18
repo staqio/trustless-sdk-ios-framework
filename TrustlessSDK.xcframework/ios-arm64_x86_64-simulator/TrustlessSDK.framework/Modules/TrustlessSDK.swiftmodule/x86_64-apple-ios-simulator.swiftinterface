@@ -10,7 +10,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public class Transfer : Swift.Codable {
+public struct Transfer : Swift.Decodable {
   public var transferId: Swift.Int
   public var type: TrustlessSDK.TransferType
   public var transferType: Swift.String
@@ -25,11 +25,9 @@ public class Transfer : Swift.Codable {
   public var beneficiary: TrustlessSDK.TransferBeneficiary
   public var fees: TrustlessSDK.TransferFee
   public var requiredDocuments: TrustlessSDK.TransferRequiredDocuments
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public enum TransferType : Swift.String, Swift.Codable {
+public enum TransferType : Swift.String, Swift.Decodable {
   case standing
   case saved
   case transfer
@@ -175,7 +173,6 @@ public struct GetAccountTransactionsParams : Swift.Encodable {
   public var error: TrustlessSDK.KYCFieldValidationError? {
     get
   }
-  public var anyValue: Any?
   public var type: TrustlessSDK.KYCFieldType {
     get
   }
@@ -384,11 +381,9 @@ public struct CardManageFundsParams {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class KYCSelectField : TrustlessSDK.KYCGenericField<Swift.String> {
   public var optionsEn: [TrustlessSDK.KYCSelectFieldValue] {
     get
-    set
   }
   public var optionsAr: [TrustlessSDK.KYCSelectFieldValue] {
     get
-    set
   }
   public func getOption(withValue value: Swift.String, lang: TrustlessSDK.Lang) -> TrustlessSDK.KYCSelectFieldValue?
   @objc deinit
@@ -457,25 +452,48 @@ public protocol TransfersProvider {
   func createCliQ(params: TrustlessSDK.CreateCliQTransferParams, completion: @escaping TrustlessSDK.ResultCallback<TrustlessSDK.Transfer>) -> TrustlessSDK.CancelCallback
   func confirm(byId transferId: Swift.Int, files: [Swift.String : TrustlessSDK.TrustlessFile], completion: @escaping TrustlessSDK.ResultCallback<TrustlessSDK.Transfer>) -> TrustlessSDK.CancelCallback
 }
+public let TrustlessSDK: TrustlessSDK.TrustlessSDKFramework
+@_hasMissingDesignatedInitializers final public class TrustlessSDKFramework {
+  final public var isCustomer: Swift.Bool {
+    get
+  }
+  final public var identityProvider: any TrustlessSDK.IdentityProvider {
+    get
+    set
+  }
+  final public var kycProvider: any TrustlessSDK.KYCProvider {
+    get
+    set
+  }
+  final public var accountsProvider: any TrustlessSDK.AccountsProvider {
+    get
+    set
+  }
+  final public var cardsProvider: any TrustlessSDK.CardsProvider {
+    get
+    set
+  }
+  final public var transfersProvider: any TrustlessSDK.TransfersProvider {
+    get
+    set
+  }
+  final public var cliQProvider: any TrustlessSDK.CliQProvider {
+    get
+    set
+  }
+  final public var simulateProvider: any TrustlessSDK.SimulateProvider {
+    get
+    set
+  }
+  final public func initialize(clientId: Swift.String, clientSecret: Swift.String)
+  final public func configureClientCertificate(certificateData: Foundation.Data, password: Swift.String? = nil)
+  final public func configureSecurity(config: TrustlessSDK.TrustlessSecurityConfig)
+  final public func setDelegate(_ delegate: any TrustlessSDK.TrustlessSDKDelegate)
+  @objc deinit
+}
 public protocol TrustlessSDKDelegate : AnyObject {
   func didSessionExpired()
   func didEncounterError(_ error: TrustlessSDK.TrustlessError)
-}
-public enum TrustlessSDK {
-  public static var isCustomer: Swift.Bool {
-    get
-  }
-  public static var identityProvider: any TrustlessSDK.IdentityProvider
-  public static var kycProvider: any TrustlessSDK.KYCProvider
-  public static var accountsProvider: any TrustlessSDK.AccountsProvider
-  public static var cardsProvider: any TrustlessSDK.CardsProvider
-  public static var transfersProvider: any TrustlessSDK.TransfersProvider
-  public static var cliQProvider: any TrustlessSDK.CliQProvider
-  public static var simulateProvider: any TrustlessSDK.SimulateProvider
-  public static func initialize(clientId: Swift.String, clientSecret: Swift.String)
-  public static func configureClientCertificate(certificateData: Foundation.Data, password: Swift.String? = nil)
-  public static func configureSecurity(config: TrustlessSDK.TrustlessSecurityConfig)
-  public static func setDelegate(_ delegate: any TrustlessSDK.TrustlessSDKDelegate)
 }
 public struct TrustlessFile {
   public var data: Foundation.Data {
